@@ -108,7 +108,7 @@ html, body, ul{
 }
 
 .marvel-cast{
-	height: 142rem;
+	height: auto;
 }
 
 
@@ -462,6 +462,7 @@ a:hover {
 
 .marvel-cast__gallery-wrapper{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 
